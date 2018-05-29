@@ -7,7 +7,7 @@
 from sqlalchemy import create_engine
 import pandas as pandas
 import io
-engine = create_engine('postgres://hassans:8z4Lj7FMxAHwFbQH@svv-rs-prod-bi.cjddijbnvfpr.eu-west-1.redshift.amazonaws.com:5439/svv')
+engine = create_engine('postgres://[RedShiftUser]:[RedShiftPassword]@svv-rs-prod-bi.cjddijbnvfpr.eu-west-1.redshift.amazonaws.com:5439/svv')
 
 
 # # Import Avg 000s View
@@ -49,21 +49,21 @@ from email import encoders
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login("hassan.sarwar@itv.com", "xeasayphsrwtdpah")
+server.login("[GMAILEMAIL], [SMTPPASSGMAILAPPPASS])
 
 
 # In[19]:
 
 
-to1 = 'hassan.sarwar@itv.com'
-to2 = 'ryan.walastyan@itv.com'
-to3 = 'avgviewerreport-group@itv.com'
+to1 = '[Recepient1]'
+to2 = '[Recepient2]'
+to3 = '[Recepient3]'
 
 
 # In[29]:
 
 
-fromaddr = "hassan.sarwar@itv.com"
+fromaddr = "[GMAILEMAIL]
 toaddr = [to1,to2,to3]
 
 
