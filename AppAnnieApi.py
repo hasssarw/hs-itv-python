@@ -18,7 +18,7 @@ import numpy as np
 StartDate = (datetime.datetime.today() - timedelta(days=2)).strftime('%Y-%m-%d')
 EndDate = (datetime.datetime.today() - timedelta(days=2)).strftime('%Y-%m-%d')
 url ="https://api.appannie.com/v1.2/accounts/409517/sales?break_down=product+date&start_date="+StartDate+"&end_date="+EndDate+"&product_id=994494368currency=GBP&regions=WW&page_index=0"
-token = 'c4ca0cded229be6a165dcc52ac9f038a27d30a7f'
+token = [APPANNIETOKEN]
 headers = { 'Authorization': 'Bearer ' + token}
 
 
