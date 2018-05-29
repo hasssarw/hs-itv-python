@@ -12,7 +12,7 @@ import pandas as pd
 # In[217]:
 
 
-LoveIslandAccessToken = 'EAAKXMXZALYbEBAD5yjZCg0EUygla4awed7ptsExI3g57gJQqnMp92tbQ0ClJCQTA8jm9LNOJuP1OLlWl131d3ZAxJoPCGonqx4KgfchzpUsMMDFHZC9XpCZCd8iGTiyMoaZAXk27ZAD2CoNTfSboZAPYwIhaRmqEEPiyjgU9qh3tAQZDZD'
+LoveIslandAccessToken = [$ACCESSTOKEN]
 
 
 # In[218]:
