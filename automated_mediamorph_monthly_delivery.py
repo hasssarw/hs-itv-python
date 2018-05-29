@@ -7,7 +7,7 @@
 from sqlalchemy import create_engine
 import pandas as pandas
 import io
-engine = create_engine('postgres://hassans:8z4Lj7FMxAHwFbQH@svv-rs-prod-bi.cjddijbnvfpr.eu-west-1.redshift.amazonaws.com:5439/svv')
+engine = create_engine('postgres://[$RedShiftUsername]:[$RedShiftPassword]@svv-rs-prod-bi.cjddijbnvfpr.eu-west-1.redshift.amazonaws.com:5439/svv')
 
 
 # In[ ]:
@@ -44,7 +44,7 @@ data_frame.to_csv('C:\\Users\\HassSarw\\automation\\'+last_month+'_mediamorph'+'
 
 
 import ftplib
-session = ftplib.FTP('ftp2.mediamorph.com','itvcomscoreftp','comScore936')
+session = ftplib.FTP('ftp2.mediamorph.com','[FTPUSERNAME]','[FTPPASSWORD]')
 session.cwd('//SVV')
 
 
